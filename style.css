@@ -1,0 +1,78 @@
+.titulo{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(17, 79, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: #000000;
+}
+
+.fundo{
+    background-color: #000000;
+    margin-top: 10px;
+    margin-left: 5px;
+    background-image: url(ratobanho.png);
+    
+}
+
+.estilo{
+
+    width: 50%;
+    height: 900px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.estilo form{
+}
+
+.estilo form div{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.estilo form label{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.estilo form input{
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+.estilo form button{
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#formulario{
+    
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
